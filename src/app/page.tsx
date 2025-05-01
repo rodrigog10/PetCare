@@ -7,7 +7,7 @@ import Testimonials from "./_components/Testimonials";
 
 export default function Home() {
   return (
-    <div>
+    <div >
       <Main />
       <FadeInSection>
         <Services />

@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export default function Navigate() {
   return (
     <nav className="w-full flex justify-between items-center">
@@ -15,16 +16,25 @@ export default function Navigate() {
 
       {/* Links à direita */}
       <div className="flex gap-6 font-bold">
-        <h2 className="text-gray  text-lg hover:text-indigo-700 transition-colors duration-200 cursor-pointer">
+        <a
+          href="#servicos"
+          className="text-gray text-lg hover:text-indigo-700 transition-colors duration-200 cursor-pointer"
+        >
           Serviços
-        </h2>
+        </a>
 
-        <h2 className="text-gray text-lg hover:text-indigo-700 transition-colors duration-200 cursor-pointer">
+        <a
+          href="#contato"
+          className="text-gray text-lg hover:text-indigo-700 transition-colors duration-200 cursor-pointer"
+        >
           Contato
-        </h2>
-        <h2 className="text-gray text-lg hover:text-indigo-700 transition-colors duration-200 cursor-pointer">
+        </a>
+        <a
+          href="#sobre-nos"
+          className="text-gray text-lg hover:text-indigo-700 transition-colors duration-200 cursor-pointer"
+        >
           Sobre nós
-        </h2>
+        </a>
       </div>
     </nav>
   );

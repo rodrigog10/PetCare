@@ -2,6 +2,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function AboutUs() {
   return (
+    <section id="sobre-nos">
     <div className="flex flex-col p-6 ">
       <h1 className="p-6 text-5xl font-bold bg-gradient-to-r from-indigo-800 via-black to-black text-transparent bg-clip-text leading-tight flex items-center gap-2">
         Sobre nós <ChevronDown size={40} className="text-indigo-950" />
@@ -37,5 +38,6 @@ export default function AboutUs() {
         <div></div>
       </div>
     </div>
+    </section>
   );
 }

@@ -1,24 +1,23 @@
-import { Roboto_Mono } from 'next/font/google';
+import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
 const robotoMono = Roboto_Mono({
-  weight: '400',
-  subsets: ['latin'],
+  weight: "400",
+  subsets: ["latin"],
 });
-
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-  
 }>) {
   return (
-    
-    <html lang="en">
-      <body className={`${robotoMono.className} bg-indigo-300 antialiased`}>
+    <html lang="en" className="scroll-smooth">
+      <body
+        className={`${robotoMono.className} scroll-smooth bg-indigo-300 antialiased`}
+      >
         {children}
-        </body>
+      </body>
     </html>
   );
 }

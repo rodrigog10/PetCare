@@ -11,6 +11,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import { WhatsappLogo } from "@phosphor-icons/react";
+
 const services = [
   {
     title: "Banho & Tosa",
@@ -72,6 +73,9 @@ export default function Services() {
   }
 
   return (
+    <section id="servicos" className="p-8">
+
+    
     <div>
       <h1 className="p-6 text-5xl font-bold bg-gradient-to-r from-indigo-800 via-black to-black text-transparent bg-clip-text leading-tight flex items-center gap-2">
         Nossos Serviços <ChevronDown size={40} className="text-indigo-950" />
@@ -142,5 +146,6 @@ export default function Services() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
