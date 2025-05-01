@@ -1,9 +1,17 @@
-
+'use client'
+import FadeInWrapper from "./FadeInWrapper";
 import Navigate from "./Navigate";
 import Whatsapp from "./Uatzap";
 
+
+
+
+
 export default function Main() {
   return (
+   
+     
+    <FadeInWrapper> 
     <div>
       <div className="bg-gradient-to-b from-indigo-950 to-indigo-300  w-full p-4">
         {/* Navbar corrigida */}
@@ -38,5 +46,6 @@ export default function Main() {
       
       
     </div>
+    </FadeInWrapper>
   );
 }
