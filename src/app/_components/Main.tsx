@@ -14,11 +14,17 @@ export default function Main() {
           {/* Texto principal */}
           <div className="flex gap-8 mt-8 px-5">
             <div>
-              <h1 className="text-5xl font-bold bg-gradient-to-r from-black via-indigo-600 to-indigo-950 text-transparent bg-clip-text leading-tight">
+              <h1 className="text-5xl font-bold bg-gradient-to-r from-black via-indigo-700 to-indigo-950 text-transparent bg-clip-text leading-tight">
                 O seu pet <br />
                 merece um{" "}
-                <span className="border-b-4 border-black  inline-block">
-                  cuidado excepcional.
+                <span className="inline-block">
+                  <span className="border-b-4 border-black inline-block">
+                    cuidado
+                  </span>{" "}
+                  <span className="border-b-4 border-black inline-block">
+                    excepcional
+                  </span>
+                  .
                 </span>
               </h1>
 

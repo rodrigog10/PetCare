@@ -51,9 +51,9 @@ export default function AboutUs() {
 
             <p className="bg-indigo-600/35 rounded-2xl p-6 text-lg">
               <strong className="bg-gradient-to-r from-indigo-700 via-black to-black text-transparent bg-clip-text">
-                Venha nos visitar
+                Venha nos visitar!
               </strong>{" "}
-              e descubra como podemos fazer a diferença na vida do seu pet! Aqui,
+              E descubra como podemos fazer a diferença na vida do seu pet! Aqui,
               cada animal é tratado com amor e respeito, porque acreditamos que
               eles merecem o melhor. Estamos ansiosos para conhecer você e seu
               melhor amigo!
