@@ -8,9 +8,9 @@ import Image from "next/image";
 const testimonials = [
   {
     content:
-      "Desde que comecei a levar Pequeno para banho e tosa aqui, ela nunca esteve tão feliz! O atendimento é impecável, os profissionais são super cuidadosos e sempre deixam minha peluda linda e cheirosa. Recomendo de olhos fechados!",
-    author: "Alvaro Matheus",
-    role: "Tutor de Pequeno (Pincher)",
+      "Desde que comecei a levar Tom para banho e tosa aqui, ele nunca esteve tão feliz! O atendimento é impecável, os profissionais são super cuidadosos e sempre deixam meu gatinho lindo e cheiroso. Recomendo de olhos fechados!",
+    author: "Ana Clara",
+    role: "Tutora de Tom (S.r.d)",
     image: tutor2,
   },
   {
@@ -38,9 +38,9 @@ export default function Testimonials() {
 
   return (
     <section>
-      <div className="container mx-auto px-4 py-6">
-        <h1 className="p-6 text-5xl font-bold bg-gradient-to-r from-indigo-800 via-black to-black text-transparent bg-clip-text leading-tight flex items-center gap-2">
-          Depoimentos dos clientes{" "}
+      <div className="container mx-auto">
+        <h1 className="p-6 text-5xl font-bold bg-gradient-to-r from-indigo-800 via-black to-black text-transparent bg-clip-text leading-tight flex items-center ">
+          Depoimentos dos clientes
           <ChevronDown size={40} className="text-indigo-950" />
         </h1>
         <div className="relative max-w-4xl mx-auto select-none">

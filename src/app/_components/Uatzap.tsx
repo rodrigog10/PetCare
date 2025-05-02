@@ -3,7 +3,7 @@ import { BsWhatsapp } from "react-icons/bs";
 export default function Whatsapp() {
   return (
     <section id="contato">
-      <div className="w-full flex justify-end ">
+      <div className="w-full flex justify-start px-5 mt-5 ">
         <a
           href="/"
           target="_blank"

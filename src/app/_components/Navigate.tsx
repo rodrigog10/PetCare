@@ -18,20 +18,20 @@ export default function Navigate() {
       <div className="flex gap-6 font-bold">
         <a
           href="#servicos"
-          className="text-gray text-lg hover:text-indigo-700 transition-colors duration-200 cursor-pointer"
+          className="bg-white px-6 py-2 rounded-full text-indigo-950 text-lg hover:bg-indigo-200 hover:text-indigo-700 transition-all duration-200 cursor-pointer"
         >
           Serviços
         </a>
 
         <a
           href="#contato"
-          className="text-gray text-lg hover:text-indigo-700 transition-colors duration-200 cursor-pointer"
+          className="bg-white px-6 py-2 rounded-full text-indigo-950 text-lg hover:bg-indigo-200 hover:text-indigo-700 transition-all duration-200 cursor-pointer"
         >
           Contato
         </a>
         <a
           href="#sobre-nos"
-          className="text-gray text-lg hover:text-indigo-700 transition-colors duration-200 cursor-pointer"
+          className="bg-white px-6 py-2 rounded-full text-indigo-950 text-lg hover:bg-indigo-200 hover:text-indigo-700 transition-all duration-200 cursor-pointer"
         >
           Sobre nós
         </a>
